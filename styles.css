@@ -162,6 +162,21 @@ header {
     .card:nth-child(3) {
         animation-delay: 10s;
     }
+
+    header {
+        height: 280px; /* Increased to accommodate button above logo */
+    }
+
+    .logo-container {
+        margin-top: 80px; /* Push logo down to make room for button */
+    }
+
+    .order-button {
+        position: absolute;
+        right: 50%;
+        transform: translateX(50%);
+        top: 20px;
+    }
 }
 
 @keyframes rotateImages {
