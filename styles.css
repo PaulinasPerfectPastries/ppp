@@ -164,11 +164,11 @@ header {
     }
 
     header {
-        height: 280px; /* Increased to accommodate button above logo */
+        height: 300px; /* Increased from 280px to add more space */
     }
 
     .logo-container {
-        margin-top: 80px; /* Push logo down to make room for button */
+        margin-top: 100px; /* Increased from 80px to add more space */
     }
 
     .order-button {
