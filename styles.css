@@ -177,6 +177,12 @@ header {
         transform: translateX(50%);
         top: 20px;
     }
+
+    .order-button.large {
+        margin-left: auto;
+        margin-right: auto;
+        transform: translateX(0); /* Reset any transform */
+    }
 }
 
 @keyframes rotateImages {
